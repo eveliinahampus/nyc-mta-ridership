@@ -5,7 +5,7 @@ import pandas as pd
 df = pd.read_csv("https://raw.githubusercontent.com/plotly/datasets/refs/heads/master/MTA_Ridership_by_DATA_NY_GOV.csv")
 
 # Create a dash application
-app = dash.Dash(__name__)
+app = Dash(__name__)
 server = app.server
 
 app.layout = [
