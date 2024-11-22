@@ -4,7 +4,10 @@ import pandas as pd
 
 df = pd.read_csv("https://raw.githubusercontent.com/plotly/datasets/refs/heads/master/MTA_Ridership_by_DATA_NY_GOV.csv")
 
-app = Dash()
+# Create a dash application
+app = dash.Dash(__name__)
+server = app.server
+
 app.layout = [
     dcc.Dropdown(options=[{'label':'Subway %', 'value':'Subways: % of Comparable Pre-Pandemic Day'},
                           {'label':'Bus %', 'value': 'Buses: % of Comparable Pre-Pandemic Day'}],
