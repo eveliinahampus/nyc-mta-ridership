@@ -1,6 +1,7 @@
 # NYC MTA Ridership
 
-## Challenge Overview  
+
+## Challenge Overview Instructions
 Plotly and Maven Analytics Holiday Season App Challenge. 
 - **Illustrates** post-pandemic ridership recovery trends across MTA services.  
 - **Features a great UI/UX design** to ensure intuitive and engaging user experiences.  
